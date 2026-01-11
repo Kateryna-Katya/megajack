@@ -315,3 +315,38 @@ width: 862px;
 
 }
 }
+/* Features */
+.features-section{
+    background-image: url("/img/features/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.features-list{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.features-item{
+    display: flex;
+        flex-direction: column;
+            gap: 22px;
+    align-items: center;
+}
+.features-subtitle{
+    margin-bottom: 12px;
+}
+@media only screen and (min-width: 1440px) {
+   .features-section{
+    background-image: url("/img/features/desk.png");
+   }
+   .features-container{
+    padding: 105px 251px;
+   }
+   .features-list{
+    gap: 42px;
+   }
+   .features-item{
+    flex-direction: row;
+   }
+}
