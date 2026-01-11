@@ -126,3 +126,54 @@ width: 246px;
         width: 701px;
     }
 }
+/* MAIN HEROES */
+.main-section{
+    background: #031009;
+}
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.main-list{
+    margin-top: 22px;
+        display: flex;
+            flex-direction: column;
+            gap: 22px;
+}
+.main-item{
+        display: flex;
+            flex-direction: column;
+            gap: 12px;
+align-items: center;
+        }
+.main-img{
+    margin-bottom: 10px;
+}
+.main-text-item{
+    text-align: center;
+}
+.main-container{
+    padding-bottom: 78px;
+}
+@media only screen and (min-width: 1440px) {
+   .main-wrapper{
+    flex-direction: row;
+    gap: 200px;
+   }
+   .main-text{
+    width: 687px;
+   }
+   .main-list{
+    margin-top: 60px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+   }
+   .main-item{
+    width: 369px;
+   }
+   .main-container{
+    padding: 60px 116px 100px;
+   }
+}
