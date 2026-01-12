@@ -1,0 +1,80 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+@import url('./header.css');
+@import url('./cookie-popup.css');
+
+
+.background {
+background: #031009;
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.09091;
+    color: #fff;
+}
+
+.privacy-title {
+font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 1.09091;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.09091;
+    color: #fff;
+    text-transform: none;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.underline {
+font-weight: 400;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.mail-link {
+font-weight: 400;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.policy-span {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1439px) {
+    .background {
+        background-image: url("/img/svg.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: contain;
+    }
+
+
+}
