@@ -432,10 +432,7 @@ align-items: center;
   .slider-btn{
     display: block;
   }
- .mySwiper {
-     width: 100%;
-     overflow: visible;
- }
+
 
  .mySwiper .swiper-slide {
      width: 50%;
